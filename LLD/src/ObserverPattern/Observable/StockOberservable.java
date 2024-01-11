@@ -4,12 +4,12 @@ import ObserverPattern.Observer.NotificationAlertObserver;
 
 public interface StockOberservable {
 
-    public void add(NotificationAlertObserver observer);
+     void add(NotificationAlertObserver observer);
 
-    public void remove(NotificationAlertObserver observer);
+     void remove(NotificationAlertObserver observer);
 
-    public void notifySubscriber();
+     void notifySubscriber();
 
-    public void setStockCount(int newStockAdded);
-    public void getStockCount();
+     void setStockCount(int newStockAdded);
+     int getStockCount();
 }
