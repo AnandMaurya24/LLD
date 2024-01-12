@@ -41,4 +41,5 @@ public class IphoneObeservableImpl implements StockOberservable{
         public int getStockCount() {
             return this.stockCount;
         }
+
 }
